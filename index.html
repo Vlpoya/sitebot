@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>чат-бот</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <header class="header">
+      <div class="titel">Есть вопрос? <span class="ans">Есть ответ!</span> 
+       
+        </div>
+        <div class="pic"><img class="quest" src="./pic/quiz_yellow.png" alt="pic" /> </div>
+    </header>
+    <section id="translit">
+      <div class="btn">
+        <form id="input">
+          <div class="search">
+            <input
+              id="inpt"
+              type="search"
+              name="q"
+              placeholder="Напишите ваш вопрос"
+            />
+            <button id="btn-ask">Спросить</button>
+          </div>
+        </form>
+      </div>
+      <div id="tab">
+        <div id = first-div data-id="origin">
+          <div id="tab-l" class="tabl-fild">
+          <p id="pdsk" class="tab-l-text" data-tooltip="Ваш вопрос здесь">Спрашивали?</p>
+        </div>
+        <div id="tab-r" class="tabl-fild">
+          <p id="pds" class="tab-r-text" data-tooltip="Наш ответ здесь">Отвечаем:</p>
+        </div>
+        </div>
+        
+      </div>
+      <div class="btn_low">
+        <button id="btn-clear">
+          Начнем сначала
+        </button>
+      </div>
+    </section>
+        
+        <script src="index.js" async defer></script>
+    </body>
+</html>
+
